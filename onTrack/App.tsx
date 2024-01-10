@@ -2,11 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Budget } from './pages/Budget';
+import { Goals } from './pages/Goals';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Budget />
+      <Goals />
       <StatusBar style="auto" />
     </View>
   );
